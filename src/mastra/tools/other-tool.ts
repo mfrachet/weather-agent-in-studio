@@ -2,8 +2,8 @@ import { createTool } from "@mastra/core";
 import { z } from "zod";
 
 export const otherTool = createTool({
-  id: "get-weather",
-  description: "Get current weather for a location",
+  id: "other-tool",
+  description: "Does nothing except for testing stuff",
   inputSchema: z.object({
     location: z.string().describe("City name"),
   }),
